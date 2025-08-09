@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f3f4f6;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.user-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+}

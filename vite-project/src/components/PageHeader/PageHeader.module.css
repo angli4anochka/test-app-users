@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    max-width: 480px; /* как у списка */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}

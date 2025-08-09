@@ -1,0 +1,47 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 320px;
+    max-width: 480px;
+}
+
+.title {
+    margin: 0 0 4px 0;
+    font-size: 22px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.input {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.invalid {
+    border-color: #e11d48;
+}
+
+.error {
+    color: #e11d48;
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 4px;
+}

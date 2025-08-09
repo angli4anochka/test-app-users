@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 800px;
+    width: 100%;
+    gap: 2rem;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
